@@ -1,0 +1,36 @@
+/* NATURE BACKGROUND */
+.nature-bg {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+              url("https://images.unsplash.com/photo-1441829266145-6d4bfbd38eb4?w=1600") center/cover no-repeat fixed;
+  min-height: 100vh;
+}
+
+/* GALLERY CARD */
+.gallery-card {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 20px;
+  backdrop-filter: blur(6px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.gallery-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+}
+
+/* IMAGE SIZE */
+.gallery-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* TEXT */
+.gallery-card h5 {
+  color: white;
+  font-weight: 600;
+}
+
